@@ -12,16 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+module: default
 runtime: custom
-version: 1
 vm: true
-api_version: 1
-threadsafe: yes
-
-manual_scaling:
-  instances: 1
-
-handlers:
-- url: .*
-  script: dynamic
-

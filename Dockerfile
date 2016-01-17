@@ -17,3 +17,5 @@ COPY nginx.conf /etc/nginx/nginx.conf
 COPY ok /usr/share/nginx/www/_ah/start
 COPY ok /usr/share/nginx/www/_ah/health
 ADD www/ /usr/share/nginx/www/
+RUN mkdir /var/log/app_engine/
+
